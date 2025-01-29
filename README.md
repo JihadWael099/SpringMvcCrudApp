@@ -27,4 +27,4 @@ a simple product management system that allows users to add, update, view, and d
 
 ### Video
 ![Alt text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)
-[Watch the video](https://www.youtube.com/watch?v=VIDEO_ID)
+[Watch the video](https://github.com/JihadWael099/SpringMvcCrudApp/blob/main/vedio.mp4)
