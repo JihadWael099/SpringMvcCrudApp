@@ -1,5 +1,5 @@
 # SpringMvcCrudApp
-a simple product management system that allows users to add, update, view, and delete products. It includes validation for product details 
+a simple product management system that allows users to add, update, view, and delete products. It includes validation for product details  and  used swagger for Rest api 
 ## Features
 
 - **Add New Product**: Users can add new products by entering details such as name, expiration date, manufacturer, price, and availability.
