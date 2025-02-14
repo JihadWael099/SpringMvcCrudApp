@@ -69,4 +69,10 @@
 
     <!-- Static resources configuration -->
     <mvc:resources mapping="/resources/**" location="/resources/" />
+    <context:property-placeholder location="classpath:application.properties"/>
+    <!-- Swagger Configuration -->
+    <bean id="swaggerConfig" class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration"/>
+    <mvc:default-servlet-handler/>
+    <mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/"/>
+    <mvc:resources mapping="/swagger-ui/**" location="classpath:/META-INF/resources/webjars/springfox-swagger-ui/"/>
 </beans>

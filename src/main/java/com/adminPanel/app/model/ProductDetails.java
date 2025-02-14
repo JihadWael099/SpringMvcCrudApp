@@ -1,5 +1,6 @@
 package com.adminPanel.app.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -8,6 +9,7 @@ import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 
@@ -20,6 +22,7 @@ import java.util.Date;
 @Getter
 @NoArgsConstructor
 @Table(name = "product_details")
+
 public class ProductDetails {
 
     @Id
@@ -54,6 +57,7 @@ public class ProductDetails {
     @Valid
     @OneToOne
     @JoinColumn(name = "product_id")
+    @JsonIgnore
     private Product product;
 
     public ProductDetails(String name, Date expirationDate, String manufacturer, Double price, Boolean available, Product product) {
