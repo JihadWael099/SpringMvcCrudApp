@@ -26,5 +26,5 @@ a simple product management system that allows users to add, update, view, and d
 - **MySQL**: Used as the relational database management system to store products and their details.
 
 ### Video
-![Alt text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)
+![Alt text](https://github.com/JihadWael099/SpringMvcCrudApp/blob/main/Screenshot%202025-01-29%20225047.png)
 [Watch the video](https://github.com/JihadWael099/SpringMvcCrudApp/blob/main/vedio.mp4)
